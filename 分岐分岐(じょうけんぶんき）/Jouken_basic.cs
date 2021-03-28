@@ -1,24 +1,30 @@
 ﻿using System;
 
-namespace if_basic2
+namespace if_basic
 {
-    class jouken_basic2
+    class Jouken_basic
     {
         public static void Main()
         {
-            var time = 12;
-            if (time < 12)
+
+            var number = 1;
+            if (number == 1)
             {
-                Console.WriteLine("午前");    // 条件式が成立したときの処理
+                Console.WriteLine("1です");
+
             }
-            else if (time == 12)
+
+            else if (number == 2)
             {
-                Console.WriteLine("正午");
+                Console.WriteLine("2です");
+
+
             }
             else
             {
-                Console.WriteLine("午後");
+                Console.WriteLine("1じゃないよ");
             }
+
         }
     }
 }
