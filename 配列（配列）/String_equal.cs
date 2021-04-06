@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Text;
+using System.Text;//Equalsメッソドを呼び出す
 namespace String_equal
 {
     class Program
