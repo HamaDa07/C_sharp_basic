@@ -24,8 +24,8 @@ namespace String_format_match2
                 Console.WriteLine(match1_2.IsMatch(ans1_2) ? ans1_2 : "アンマッチ");
             }//book:book    BOOK:BOOK   Book:Book   xyz:アンマッチ
 
-                ・・
-            //任意の文字列にマッチするとき    
+                
+            //任意の文字列にマッチするとき/////
             Console.WriteLine();
             var str2 = new[] {"hot","heat","hit","heavenstar","hitting"};
             var match2_1 = new Regex(@"h.t");//.は任意の1文字
