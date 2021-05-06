@@ -8,10 +8,10 @@ namespace Class_コンストラクター
         //クラス(Add)のメッソド(Add)
         static void Main(string[] args)
         {
-            var player1 = new Player("ジョン");
+            var player1 = new Player("ジョン");//var変数がおすすめ
             player1.Walk();//ジョンです。
 
-            var player2 = new Player("太郎");
+            var player2 = new Player("太郎");//var変数がおすすめ
             player2.Walk();//太郎です。
             player1.Walk();//ジョンです。
         }
