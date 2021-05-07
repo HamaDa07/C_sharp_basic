@@ -23,7 +23,7 @@ namespace Class_static
     {
         private int price;
         private int quantity;
-        private static int count = 0;
+        private static int count = 0;//staticのメッソドを使って、値を引き渡せる
 
         public Item(int price,int quantity)
         {
