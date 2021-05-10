@@ -24,7 +24,7 @@ namespace Class_プロパティ
         private int price;
         private int quantity;
 
-        public static int Count { get; private set; }
+        public static int Count { get; private set; }//privateは、なくても可
         //set{}の中には主に「メンバ変数 = value」というように記述します。
         //valueは利用者側のクラスで代入された値が格納される予約語です。
         //get{}の中には「return メンバ変数」というように、戻り値を指定する形になります
