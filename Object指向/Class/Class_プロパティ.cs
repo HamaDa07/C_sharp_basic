@@ -23,17 +23,19 @@ namespace Class_プロパティ
     {
         private int price;
         private int quantity;
+        
+        //get; set; は関数を簡略化してもの
 
         public static int Count { get; private set; }//privateは、なくても可
-        //set{}の中には主に「メンバ変数 = value」というように記述します。
+        //set{}の中には主に「メンバ変数(Count) = value」というように記述します。
         //valueは利用者側のクラスで代入された値が格納される予約語です。
         //get{}の中には「return メンバ変数」というように、戻り値を指定する形になります
 
         public Item(int price,int quantity)
         {
             this.price = price;
-            this.quantity = quantity;
-            Count += 1;//変数を宣言しなくていい?
+            this.quantity = quantity; 
+            Count += 1;//Itemメッソドで、(Count)に値を入力
         }
 
         public int GetTotalPrice()
